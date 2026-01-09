@@ -59,7 +59,7 @@ public class Queue_using_Stacks {
         public int peek()
         {
             if(empty())
-                throw new RuntimeException("No data in Queue");
+                throw new RuntimeException("No data in the Queue");
 
             if(out.isEmpty())
             {
